@@ -18,6 +18,6 @@ $ python3 app.py
 Add the following line to your .bashrc
 
 ```
-alias p3="python3 app.py"
+alias p3='python3 app.py'
 
 ```
