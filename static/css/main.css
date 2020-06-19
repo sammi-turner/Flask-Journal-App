@@ -1,11 +1,21 @@
 body, html {
     margin: 0;
-    font-family: sans-serif;
+    font-family: monospace;
 }
 
 .content {
-    margin: 0 auto;
-    width: 400px;
+    background-color: #eee;
+    text-align: center;
+    align-items: center;
+    padding: 3rem;
+    border: 1px solid;
+    margin: 8vh auto;
+    width: 60vw;
+}
+
+h1 {
+    font-size: xx-large;
+    padding-bottom: 2vh;
 }
 
 table, td, th {
@@ -18,18 +28,25 @@ table {
 }
 
 th {
-    height: 30px;
+    height: 0.3rem;
 }
 
 td {
-    text-align: center;
-    padding: 5px;
+    padding: 0.5rem;
 }
 
 .form {
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 
 #content {
-    width: 70%;
+    width: 50vw;
+}
+
+.submitButton {
+    width: 4vw;
+    height: 3.6vh;
+    border-radius: 5%;
+    background-color: whitesmoke;
+    margin-left: 0.2vw;
 }
