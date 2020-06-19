@@ -15,7 +15,7 @@ $ python3 app.py
 
 # To save typing
 
-Add the following to your .bashrc
+Add the following line to your .bashrc
 
 ```
 alias p3="python3 app.py"
