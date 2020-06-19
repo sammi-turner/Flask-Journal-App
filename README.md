@@ -4,7 +4,7 @@ An app for writing time-stamped notes to an SQLite database.
 
 By default, this app runs in debug mode.
 
-# To run the app on your local machine
+# To run the app on your linux machine
 
 Open a terminal in the the working directory, then run the command
 
