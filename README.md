@@ -4,6 +4,8 @@ An app for writing time-stamped notes to an SQLite database.
 
 By default, this app runs in debug mode.
 
+All notes are saved to the test.db file.
+
 # To run the app on your linux machine
 
 Open a terminal in the the working directory, then run the command
@@ -13,7 +15,7 @@ $ python3 app.py
 
 ```
 
-# To save typing
+# Or to save typing
 
 Add the following line to your .bashrc
 
