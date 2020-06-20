@@ -23,3 +23,7 @@ Add the following line to your .bashrc
 alias p3='python3 app.py'
 
 ```
+
+# Boomark localhost:5000
+
+Once the server is running, open your browser at [localhost:5000](http://localhost:5000/) to use the app.
