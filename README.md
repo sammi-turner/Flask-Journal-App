@@ -6,6 +6,8 @@ By default, this app runs in debug mode.
 
 All notes are saved to the 'test.db' file.
 
+This app is a fork of [this repo](https://github.com/jakerieger/FlaskIntroduction).
+
 # Do you need to use the virtual environment?
 
 If all the modules listed in the 'requirements.txt' file are installed globally, then the virtual environment won't be required.
