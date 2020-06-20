@@ -6,6 +6,25 @@ By default, this app runs in debug mode.
 
 All notes are saved to the 'test.db' file.
 
+# Do you need to use the virtual environment?
+
+If all the modules listed in the 'requirements.txt' file are installed globally, then the virtual environment won't be required.
+
+But if the virtual environment is required, then enter the following commands
+
+```
+$ cd env/bin/
+$ source activate
+
+```
+
+# To deactivate the virtual environment
+
+```
+$ deactivate
+
+```
+
 # To run the app on your linux machine
 
 Open a terminal in the the working directory, then run the command
