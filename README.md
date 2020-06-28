@@ -8,11 +8,9 @@ All notes are saved to the 'test.db' file.
 
 This app is a fork of [this repo](https://github.com/jakerieger/FlaskIntroduction) for this [blog post](https://www.center-the-div.com/2020/06/notes-to-self-python-flask-database-app.html).
 
-# Do you need to use the virtual environment?
+# To use the virtual environment
 
-If all the modules listed in the 'requirements.txt' file are installed globally, then the virtual environment won't be required.
-
-But if the virtual environment is required, then enter the following commands
+Enter the following commands
 
 ```
 $ cd env/bin/
