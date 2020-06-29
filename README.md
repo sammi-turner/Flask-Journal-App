@@ -8,6 +8,12 @@ All notes are saved to the 'test.db' file.
 
 This app is a fork of [this repo](https://github.com/jakerieger/FlaskIntroduction) for this [blog post](https://www.center-the-div.com/2020/06/notes-to-self-python-flask-database-app.html).
 
+# Checklist
+
+- Make sure than python is installed and on the $PATH
+- Make sure that pip is installed and on the $PATH
+- If you are NOT using a virtual environment, then make sure that all the modules listed in 'requirements.txt' are installed globally with pip.
+
 # To use the virtual environment
 
 Enter the following commands
@@ -25,12 +31,12 @@ $ deactivate
 
 ```
 
-# To run the app on your linux machine
+# To run the app
 
 Open a terminal in the the working directory, then run the command
 
 ```
-$ python3 app.py
+$ python app.py
 
 ```
 
@@ -39,7 +45,7 @@ $ python3 app.py
 Add the following line to your '.bashrc' file.
 
 ```
-alias p3='python3 app.py'
+alias pa='python app.py'
 
 ```
 
