@@ -10,7 +10,7 @@ This app is a fork of [this repo](https://github.com/jakerieger/FlaskIntroductio
 
 # Checklist
 
-- Make sure than python is installed and on the $PATH
+- Make sure than python is installed and on the $PATH.
 - Make sure that pip is installed and on the $PATH
 - If you are NOT using a virtual environment, then make sure that all the modules listed in 'requirements.txt' are installed globally with pip.
 
