@@ -6,7 +6,7 @@ By default, this app runs in debug mode.
 
 All notes are saved to the 'test.db' file.
 
-This app is a fork of [this repo](https://github.com/jakerieger/FlaskIntroduction) for this [blog post](https://www.center-the-div.com/2020/06/notes-to-self-python-flask-database-app.html).
+This app is a fork of [this repo](https://github.com/jakerieger/FlaskIntroduction).
 
 # Checklist
 
