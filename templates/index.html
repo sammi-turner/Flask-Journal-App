@@ -6,34 +6,34 @@
 
 {% block body %}
 <div class="content">
-    {% if tasks|length < 1 %}
-    <h1>There are no entries. Please create one below.</h1>
-    {% else %}
-    <table>
-        <tr>
-            <th style="width: 40vw;">Entry</th>
-            <th>Added</th>
-            <th>Actions</th>
-        </tr>
-        {% for task in tasks %}
-            <tr>
-                <td style="width: 40vw;">{{ task.content }}</td>
-                <td>{{ task.date_created.date() }}</td>
-                <td>
-                    <a href="/delete/{{task.id}}">Delete</a>
-                    <br>
-                    <a href="/update/{{task.id}}">Update</a>
-                </td>
-            </tr>
-        {% endfor %}
-    </table>
-    {% endif %}
+  {% if tasks|length < 1 %}
+  <h1>There are no entries. Please create one below.</h1>
+  {% else %}
+  <table>
+    <tr>
+      <th style="width: 40vw;">Entry</th>
+      <th>Added</th>
+      <th>Actions</th>
+    </tr>
+    {% for task in tasks %}
+      <tr>
+        <td style="width: 40vw;">{{ task.content }}</td>
+        <td>{{ task.date_created.date() }}</td>
+        <td>
+          <a href="/delete/{{task.id}}">Delete</a>
+          <br>
+          <a href="/update/{{task.id}}">Update</a>
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+  {% endif %}
 
-    <div class="form">
-        <form action="/" method="POST">
-            <input type="text" name="content" id="content">
-            <input class="submitButton" type="submit" value="add"/>
-        </form>
-    </div>
+  <div class="form">
+    <form action="/" method="POST">
+      <input type="text" name="content" id="content">
+      <input class="submitButton" type="submit" value="ADD"/>
+    </form>
+  </div>
 </div>
 {% endblock %}
