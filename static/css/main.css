@@ -1,52 +1,53 @@
 body, html {
-    margin: 0;
-    font-family: monospace;
+  margin: 0;
+  font-family: monospace;
+  background-color: #eee;
 }
 
 .content {
-    background-color: #eee;
-    text-align: center;
-    align-items: center;
-    padding: 3rem;
-    border: 1px solid;
-    margin: 8vh auto;
-    width: 60vw;
+  background-color: #ddd;
+  text-align: center;
+  align-items: center;
+  padding: 3rem;
+  border: 4px;
+  margin: 8vh auto;
+  width: 50vw;
 }
 
 h1 {
-    font-size: xx-large;
-    padding-bottom: 2vh;
+  font-size: xx-large;
+  padding-bottom: 2vh;
 }
 
 table, td, th {
-    border: 1px solid #aaa;
+  border: 1px solid #aaa;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 th {
-    height: 0.3rem;
+  height: 0.3rem;
 }
 
 td {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 .form {
-    margin-top: 2vh;
+  margin-top: 2vh;
 }
 
 #content {
-    width: 50vw;
+  width: 50vw;
 }
 
 .submitButton {
-    width: 4vw;
-    height: 3.6vh;
-    border-radius: 5%;
-    background-color: whitesmoke;
-    margin-left: 0.2vw;
+  width: 4vw;
+  height: 2.4vh;
+  border-radius: 5%;
+  background-color: whitesmoke;
+  margin: 1rem;
 }
