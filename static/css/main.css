@@ -1,17 +1,18 @@
 body, html {
   margin: 0;
   font-family: monospace;
-  background-color: #eee;
+  background-color: #ddd;
 }
 
 .content {
-  background-color: #ddd;
+  background-color: #eee;
   text-align: center;
   align-items: center;
   padding: 3rem;
   border: 4px;
   margin: 8vh auto;
   width: 50vw;
+  border-radius: 5%;
 }
 
 h1 {
@@ -45,9 +46,8 @@ td {
 }
 
 .submitButton {
-  width: 4vw;
+  width: 2vw;
   height: 2.4vh;
   border-radius: 5%;
-  background-color: whitesmoke;
   margin: 1rem;
 }
