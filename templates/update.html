@@ -6,12 +6,12 @@
 
 {% block body %}
 <div class="content">
-  <h1>Update Entry</h1>
+  <h3>Update Entry</h2>
 
   <div class="form">
     <form action="/update/{{task.id}}" method="POST">
       <input type="text" name="content" id="content" value="{{task.content}}">
-      <input class="submitButton" type="submit" value="+"/>
+      <input class="submitButton" type="submit" value="^"/>
     </form>
   </div>
 </div>

@@ -7,7 +7,7 @@
 {% block body %}
 <div class="content">
   {% if tasks|length < 1 %}
-  <h1>There are no entries. Please create one below.</h1>
+  <h3>There are no entries. Please create one below.</h3>
   {% else %}
   <table>
     <tr>
@@ -32,7 +32,7 @@
   <div class="form">
     <form action="/" method="POST">
       <input type="text" name="content" id="content">
-      <input class="submitButton" type="submit" value="+"/>
+      <input class="submitButton" type="submit" value="^"/>
     </form>
   </div>
 </div>
