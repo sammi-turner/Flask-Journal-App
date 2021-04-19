@@ -21,14 +21,12 @@ Enter the following commands
 ```
 $ cd env/bin/
 $ source activate
-
 ```
 
 # To deactivate the virtual environment
 
 ```
 $ deactivate
-
 ```
 
 # To run the app
@@ -37,7 +35,6 @@ Open a terminal in the the working directory, then run the command
 
 ```
 $ python app.py
-
 ```
 
 # Or to save typing
@@ -46,7 +43,6 @@ Add the following line to your '.bashrc' file.
 
 ```
 alias pa='python app.py'
-
 ```
 
 # Boomark 'localhost:5000'
