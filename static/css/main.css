@@ -1,36 +1,38 @@
 body, html {
-  margin: 0;
-  font-family: monospace;
-  background-color: #ddd;
+  font-family: sans-serif;
+  background-image: url(04.png);
 }
 
 .content {
-  background-color: #eee;
+  background-color: #281D26;
   text-align: center;
   align-items: center;
   padding: 3rem;
   border: 4px;
   margin: 8vh auto;
-  width: 50vw;
-  border-radius: 5%;
+  width: 30rem;
+  border-radius: 16%;
 }
 
-h1 {
-  font-size: xx-large;
+h3 {
+  color: #fff;
+  font-size: large;
   padding-bottom: 2vh;
 }
 
 table, td, th {
-  border: 1px solid #aaa;
+  border: 1px solid #281D26;
 }
 
 table {
+  color: #fff;
+  background-color: #281D26;
   border-collapse: collapse;
   width: 100%;
 }
 
 th {
-  height: 0.3rem;
+  height: 0.5rem;
 }
 
 td {
@@ -42,12 +44,27 @@ td {
 }
 
 #content {
-  width: 50vw;
+  width: 30rem;
 }
 
 .submitButton {
   width: 2vw;
-  height: 2.4vh;
-  border-radius: 5%;
+  height: 2vh;
+  border-radius: 4%;
   margin: 1rem;
+}
+
+.submitButton {
+  width: 2vw;
+  height: 2vh;
+  margin: 1rem;
+  background-color: lightgrey;
+  border-radius: 20%;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: white;
 }
