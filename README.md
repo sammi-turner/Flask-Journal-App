@@ -34,15 +34,7 @@ $ deactivate
 Open a terminal in the the working directory, then run the command
 
 ```
-$ python app.py
-```
-
-# Or to save typing
-
-Add the following line to your '.bashrc' file.
-
-```
-alias pa='python app.py'
+$ py app.py
 ```
 
 # Boomark 'localhost:5000'
@@ -50,6 +42,6 @@ alias pa='python app.py'
 Once the server is running, open your browser at [localhost:5000](http://localhost:5000/) to use the app.
 
 
-# To close the server process
+# Clear cache to see changes
 
-Enter CTRL + c BEFORE closing the terminal window.
+A 'clear cache' browser extension may need to be used in order see changes in the app on localhost.
